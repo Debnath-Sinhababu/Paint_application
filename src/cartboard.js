@@ -72,6 +72,7 @@ function mouseup(){
     let clonearr=[...undoarr]
     clonearr.push(context.getImageData(0,0,canvas.width,canvas.height))
     setundoarr(clonearr)
+    
   }
 
   setdrawing(false)
